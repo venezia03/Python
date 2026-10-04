@@ -1,17 +1,34 @@
-# Welcome to MkDocs
+# Результаты исследований
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## О проекте
 
-## Commands
+Учебный проект по исследованию статических генераторов сайтов на Python и автоматизации их публикации с помощью CI/CD.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Цель
 
-## Project layout
+Исследовать возможности Python-генераторов статических сайтов и создать воспроизводимый процесс:
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+**исходные материалы → сборка MkDocs → автоматическая проверка → публикация на GitHub Pages.**
+
+## Содержание
+
+- [Сравнение статических генераторов](research/generators.md)
+
+## Практическая часть
+
+В практической части проекта настроены:
+
+- виртуальное окружение Python;
+- MkDocs + Material;
+- фиксированные зависимости в `requirements.txt`;
+- Git-репозиторий;
+- GitHub Actions;
+- автоматическая строгая сборка;
+- автоматическая публикация на GitHub Pages.
+
+## Текущий статус
+
+Сайт успешно собирается командой:
+
+```text
+mkdocs build --strict
