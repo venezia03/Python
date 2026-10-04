@@ -32,3 +32,5 @@ nav:
  - Главная: index.md
  - Исследование: 
     - Сравнение генераторов: research/generators.md
+ - Практика: 
+    - CI/CD: practice/ci.md
