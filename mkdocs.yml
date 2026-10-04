@@ -1,4 +1,6 @@
 site_name: Результаты исследований
+site_url: https://venezia03.github.io/Python/
+use_directory_urls: true
 site_description: Публикация результатов экспериментов
 site_author: Dmitry Yaroslavov
 
